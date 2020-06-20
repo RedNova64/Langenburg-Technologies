@@ -1,0 +1,49 @@
+/* CSS Document */
+
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+nav {
+    background-color: #657066;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0 0 10px #000000;
+}
+.nav-content {
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-logo {
+    height: 90px;
+}
+.nav-links {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 32px;
+}
+.nav-links li {
+    margin: 0 20px;
+    font-size: 12pt;
+    color: #d6d6d6;
+    transition: color 0.5s;
+}
+.nav-links li:hover {
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+table {
+    border-spacing: 20px;
+    margin: 20px;
+}
+.project-img-group {
+    width: 33%;
+    display: table-cell;
+}
+.project-img-thumbnail {
+    width: 100%;
+}
