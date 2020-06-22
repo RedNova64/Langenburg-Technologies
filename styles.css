@@ -36,6 +36,9 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
+.projects {
+    background-color: #2A2E26;
+}
 table {
     border-spacing: 20px;
 }
@@ -45,4 +48,5 @@ table {
 }
 .project-img-thumbnail {
     width: 100%;
+    box-shadow: 0 0 20px #657066;
 }
