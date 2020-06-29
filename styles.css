@@ -39,7 +39,7 @@ a {
     color: #ffffff;
 }
 .projects {
-    background-color: #2A2E26;
+    background-color: #1A1A1A;
 }
 table {
     margin-top: 124px;
@@ -51,7 +51,7 @@ table {
 }
 .project-img-thumbnail {
     width: 100%;
-    box-shadow: 0 0 20px #657066;
+    box-shadow: 0 0 40px #434E41;
 }
 video {
     width: 100%;
@@ -94,7 +94,7 @@ p, li {
     font-family: 'Abel', sans-serif;
 }
 .technology {
-    background-color: rgba(141, 153, 142, 0.96);
+    background-color: rgba(138, 148, 138, 0.96);
     overflow: auto;
     color: #ffffff;
 }
@@ -103,9 +103,15 @@ p, li {
     margin: 0 auto;
     padding: 50px 0;
 }
+.functions-diagram {
+    width: 100%;
+}
 .functions-outline {
-
+    overflow: auto;
 }
 .functions-outline li {
     color: #2e2e2e;
+}
+.example-system {
+   width: 100%; 
 }
