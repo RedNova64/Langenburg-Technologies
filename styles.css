@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 nav {
-    background-image: linear-gradient(#657066, #4c574d);
+    background-image: linear-gradient(rgba(80, 80, 80, 0.95), rgba(20, 20, 20, 0.95));
     width: 100%;
     padding: 15px 0;
     box-shadow: 0 0 10px #000000;
