@@ -47,12 +47,133 @@ table {
     width: 100%;
     height: 100vh;
 }
-.project-img-group {
+.gallery-group {
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 33.33%;
     display: table-cell;
     box-shadow: 0 0 40px #434E41;
+}
+#gallery-group-1 {
+    animation: cycleGroup1 20s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes cycleGroup1 {
+    0% {
+        background-image: url(images/gallery-group-1/shopping-center-1.jpg);
+    }
+    33.33% {
+        background-image: url(images/gallery-group-1/shopping-center-2.jpg);
+    }
+    66.66% {
+        background-image: url(images/gallery-group-1/shopping-center-3.jpg);
+    }
+    100% {
+        background-image: url(images/gallery-group-1/shopping-center-4.jpg);
+    }
+}
+#gallery-group-2 {
+    animation: cycleGroup2 110s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes cycleGroup2 {
+    4.5454% {
+        background-image: url(images/gallery-group-2/corporate-hangar-1.jpg);
+    }
+    9.0908% {
+        background-image: url(images/gallery-group-2/corporate-hangar-2.jpg);
+    }
+    13.6362% {
+        background-image: url(images/gallery-group-2/corporate-hangar-3.jpg);
+    }
+    18.1816% {
+        background-image: url(images/gallery-group-2/corporate-hangar-4.jpg);
+    }
+    22.727% {
+        background-image: url(images/gallery-group-2/corporate-hangar-5.jpg);
+    }
+    27.2724% {
+        background-image: url(images/gallery-group-2/corporate-hangar-6.jpg);
+    }
+    31.8178% {
+        background-image: url(images/gallery-group-2/hangar-1.jpg);
+    }
+    36.3632% {
+        background-image: url(images/gallery-group-2/hangar-2.jpg);
+    }
+    40.9086% {
+        background-image: url(images/gallery-group-2/hangar-3.jpg);
+    }
+    45.454% {
+        background-image: url(images/gallery-group-2/hangar-4.jpg);
+    }
+    50% {
+        background-image: url(images/gallery-group-2/hangar-5.jpg);
+    }
+    54.5454% {
+        background-image: url(images/gallery-group-2/hangar-6.jpg);
+    }
+    59.0908% {
+        background-image: url(images/gallery-group-2/private-hangar-1.jpg);
+    }
+    63.6362% {
+        background-image: url(images/gallery-group-2/private-hangar-2.jpg);
+    }
+    68.1816% {
+        background-image: url(images/gallery-group-2/private-hangar-3.jpg);
+    }
+    72.727% {
+        background-image: url(images/gallery-group-2/private-hangar-4.jpg);
+    }
+    77.2724% {
+        background-image: url(images/gallery-group-2/private-hangar-5.jpg);
+    }
+    81.8178% {
+        background-image: url(images/gallery-group-2/service-hangar-1.jpg);
+    }
+    86.3632% {
+        background-image: url(images/gallery-group-2/service-hangar-2.jpg);
+    }
+    90.9086% {
+        background-image: url(images/gallery-group-2/service-hangar-3.jpg);
+    }
+    95.454% {
+        background-image: url(images/gallery-group-2/service-hangar-4.jpg);
+    }
+    100% {
+        background-image: url(images/gallery-group-2/service-hangar-5.jpg);
+    }
+}
+#gallery-group-3 {
+    animation: cycleGroup3 40s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes cycleGroup3 {
+    0% {
+        background-image: url(images/gallery-group-3/powerplant-1.jpg);
+    }
+    14.2857% {
+        background-image: url(images/gallery-group-3/powerplant-2.jpg);
+    }
+    28.5714% {
+        background-image: url(images/gallery-group-3/powerplant-3.jpg);
+    }
+    42.8571% {
+        background-image: url(images/gallery-group-3/powerplant-4.jpg);
+    }
+    57.1428% {
+        background-image: url(images/gallery-group-3/powerplant-5.jpg);
+    }
+    71.4285% {
+        background-image: url(images/gallery-group-3/powerplant-6.jpg);
+    }
+    85.7141% {
+        background-image: url(images/gallery-group-3/powerplant-7.jpg);
+    }
+    100% {
+        background-image: url(images/gallery-group-3/powerplant-8.jpg);
+    }
 }
 video {
     width: 100%;
